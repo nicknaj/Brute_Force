@@ -59,7 +59,7 @@ _____________________                              _____________________
                             
 							   """.format(G,R))
 
-use.add_option("-g","--gmail",dest="gmail",help="Write Your Account gmail")
+use.add_option("-g","--gmail",dest="gmail",help="Write Your Account gmail")si.luz2009@gmail.com
 use.add_option("-t","--hotmail",dest="hotmail",help="Write Your Account hotmail")
 use.add_option("-T","--twitter",dest="twitter",help="Write Your Account twitter")
 use.add_option("-f","--facebook",dest="facebook",help="Write Your Account facebook")
